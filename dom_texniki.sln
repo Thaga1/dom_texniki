@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31019.35
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "dom_texniki", "dom_texniki.csproj", "{5652EF5B-0BB9-4FFB-BC15-044A227739D0}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{5652EF5B-0BB9-4FFB-BC15-044A227739D0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5652EF5B-0BB9-4FFB-BC15-044A227739D0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5652EF5B-0BB9-4FFB-BC15-044A227739D0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5652EF5B-0BB9-4FFB-BC15-044A227739D0}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {E13AC329-4BFB-48E1-A1FC-94002B6713D9}
+	EndGlobalSection
+EndGlobal

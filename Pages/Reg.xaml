@@ -1,0 +1,35 @@
+﻿<Page x:Class="dom_texniki.Reg"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:dom_texniki"
+      mc:Ignorable="d" 
+      d:DesignHeight="650" d:DesignWidth="1000"
+      MaxHeight="650" MaxWidth="1000"
+      Title="Reg">
+
+    <Grid Background="#FFEEEEEE">
+        <StackPanel HorizontalAlignment="Center" VerticalAlignment="Center">
+            <TextBlock Text="Регистрация:" FontFamily="Corbel" FontWeight="Bold" FontSize="24" TextAlignment="Center"></TextBlock>
+            <Label Content="Имя:" FontFamily="Corbel" FontSize="13"></Label>
+            <TextBox x:Name="FName"></TextBox>
+            <Label Content="Фамилия:" FontFamily="Corbel" FontSize="13"></Label>
+            <TextBox x:Name="LName"></TextBox>
+            <Label Content="Логин:" FontFamily="Corbel" FontSize="13"></Label>
+            <TextBox x:Name="Login"></TextBox>
+            <Label Content="Пароль:" FontFamily="Corbel" FontSize="13"></Label>
+            <PasswordBox x:Name="Pass"></PasswordBox>
+            <Label Content="Выберите роль:" FontFamily="Corbel" FontSize="13"></Label>
+            <ComboBox SelectedItem="{Binding Roli}" x:Name="RCB" DisplayMemberPath="Name"></ComboBox>
+            <Button Margin="10" Content="Зарегистрироваться" FontFamily="Corbel" FontSize="17" Click="RegButton_Click" Background="#FF9DCDE7" Height="28" Width="232"></Button>
+            <TextBlock TextWrapping="Wrap" 
+                       Height="26" Width="201" TextAlignment="Center" 
+                       FontFamily="Corbel" FontSize="14" Background="#FFB9B7B7" Opacity="0.5">
+                <Run Text="Уже есть аккаунт? "/>
+                <Hyperlink NavigateUri="LogPage.xaml" FontStyle="Italic" Foreground="#FF0361A9">Войти</Hyperlink>
+            </TextBlock>
+        </StackPanel>
+
+    </Grid>
+</Page>
